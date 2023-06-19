@@ -1,17 +1,3 @@
-#   Mubashir Usman Ijaz
-# This is the main file and game is started using start_the_game
-# function. It selects either the game will be played between
-# two human players (human_game_starts) or between a human and a
-# computer (computer_game_starts). Both types use Board class to
-# create and update the board. Also board class methods are called
-# to check for the valid positions available to insert the token, game is draw,
-# and winning conditions as the game proceeds. computer_game_starts starts
-# by creating an instance of MinimaxPlayer class. Computer is always
-# assigned with -1 token and human player always takes first turn. Both
-# types of games switch the turn based on the player. games_options function
-# is called (to give options of Restart/Quit) every time a player has to make a move.
-# game_finished function is invoked if either player wins or game is drawn, and it
-# asks the user to either restart or quit the game.
 
 import sys
 from game_options import game_options

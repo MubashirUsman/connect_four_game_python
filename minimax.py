@@ -5,16 +5,6 @@
 # removed to avoid complexity and evaluate method is added to check for the
 # terminal condition (instead of calling is_terminal as in the link).
 
-# In the minimax method we check if the game is over.
-# If the game is not over we go through to see whose turn it is
-# and return the best_score according to the player (min or max). This
-# is done every time minimax is called inside the get_move method.
-# Then in the get_move method we make a copy of the board to simulate
-# the move by calling the valid_columns_list method. Then we calculate
-# the score and check if that score is better than the current_score, if
-# score is not better, than the move is discarded otherwise it is returned.
-
-
 import math
 import copy
 

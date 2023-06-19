@@ -1,6 +1,3 @@
-#   Mubashir Usman Ijaz
-# This function is defined to provide the functionality of
-# getting the user input from one of the keys used in the game.
 
 def game_options():
     print("""
